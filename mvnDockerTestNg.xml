@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Dockertest"  parallel="tests">
+
+   <test name="GoToGmail" >
+   
+   <!--  <parameter name="Browser" value="firefox"/> -->
+   
+      <classes>
+          <class name="com.SampleDocker.TestMvnDocker.TestDocker1" />
+      </classes>    
+      
+    </test>
+    
+    
+    <test name="Goimages" >
+   <!--    <parameter name="Browser" value="chrome"/> -->
+   
+      <classes>
+          <class name="com.SampleDocker.TestMvnDocker.TestDocker2" />
+      </classes>    
+      
+    </test>
+    
+  </suite>  

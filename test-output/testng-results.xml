@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Dockertest" duration-ms="20803" started-at="2019-09-10T14:00:48Z" finished-at="2019-09-10T14:01:09Z">
+    <groups>
+    </groups>
+    <test name="Goimages" duration-ms="17610" started-at="2019-09-10T14:00:48Z" finished-at="2019-09-10T14:01:06Z">
+      <class name="com.SampleDocker.TestMvnDocker.TestDocker2">
+        <test-method status="PASS" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:com.SampleDocker.TestMvnDocker.TestDocker2@7d9d1a19]" name="setupDriver" is-config="true" duration-ms="8192" started-at="2019-09-10T14:00:48Z" finished-at="2019-09-10T14:00:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4bec1f0c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="gotoImages()[pri:0, instance:com.SampleDocker.TestMvnDocker.TestDocker2@7d9d1a19]" name="gotoImages" duration-ms="9335" started-at="2019-09-10T14:00:57Z" finished-at="2019-09-10T14:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoImages -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.SampleDocker.TestMvnDocker.TestDocker2@7d9d1a19]" name="teardown" is-config="true" duration-ms="65" started-at="2019-09-10T14:01:06Z" finished-at="2019-09-10T14:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.SampleDocker.TestMvnDocker.TestDocker2 -->
+    </test> <!-- Goimages -->
+    <test name="GoToGmail" duration-ms="20803" started-at="2019-09-10T14:00:48Z" finished-at="2019-09-10T14:01:09Z">
+      <class name="com.SampleDocker.TestMvnDocker.TestDocker1">
+        <test-method status="PASS" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:com.SampleDocker.TestMvnDocker.TestDocker1@1d057a39]" name="setupDriver" is-config="true" duration-ms="8386" started-at="2019-09-10T14:00:48Z" finished-at="2019-09-10T14:00:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29ca901e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="gotoGmail()[pri:0, instance:com.SampleDocker.TestMvnDocker.TestDocker1@1d057a39]" name="gotoGmail" duration-ms="12327" started-at="2019-09-10T14:00:57Z" finished-at="2019-09-10T14:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoGmail -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.SampleDocker.TestMvnDocker.TestDocker1@1d057a39]" name="teardown" is-config="true" duration-ms="87" started-at="2019-09-10T14:01:09Z" finished-at="2019-09-10T14:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.SampleDocker.TestMvnDocker.TestDocker1 -->
+    </test> <!-- GoToGmail -->
+  </suite> <!-- Dockertest -->
+</testng-results>
